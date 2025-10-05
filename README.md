@@ -1,6 +1,6 @@
 🎲 False Calculator
 
-A fun and unpredictable calculator built with HTML, CSS, and JavaScript that sometimes gives incorrect results — just for laughs! 😜
+A fun and unpredictable calculator built with HTML, CSS, and JavaScript that sometimes gives incorrect results — just for laughs! 
 
 🧠 Project Idea
 
@@ -33,7 +33,7 @@ A random number (Math.random()) decides the mode:
 
 Normal Mode: Correct results displayed
 
-Random Mode: Results are mixed up 😆
+Random Mode: Results are mixed up 
 
 Results appear dynamically below the button
 
@@ -66,5 +66,3 @@ Conditional Logic
 
 Randomization
 
-## 🌐 Live Demo
-👉 [Try the Calculator Here] --->  http://127.0.0.1:3000/index.html
