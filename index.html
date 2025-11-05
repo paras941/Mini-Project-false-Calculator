@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>false Calculator</title>
+    <title>The False Calculator</title>
     <link rel="stylesheet" href="style.css" class="css">
 </head>
 <body>
     <div class="container">
-    <h1>false Calculator</h1>
-    <input type="number" id="num1" placeholder="Enter first number">
-    <input type="number" id="num2" placeholder="Enter second number">
-    <br>
-    <button id="calculateBtn">Calculate</button>
+        <h1> False-Calculator </h1>
+        
+        <div class="form-container">
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <button id="calculateBtn">Calculate</button>
+        </div>
 
-    <div class="results" id="results"></div>
+        <div class="screen">
+            <div class="scanline"></div>
+            <ul class="results" id="results">
+                </ul>
+        </div>
     </div>
 
     <script src="script.js"></script>
