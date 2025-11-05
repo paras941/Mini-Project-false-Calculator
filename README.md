@@ -1,73 +1,101 @@
 ⚡ The False Calculator
 
-A fun and deceptive calculator app built with HTML, CSS, and JavaScript — it pretends to calculate but actually gives wrong answers 80% of the time.
-Designed with a glitchy screen effect and dark tech aesthetic, it’s a perfect combo of humor, randomness, and clean front-end design.
+A fun and deceptive calculator built with HTML, CSS, and JavaScript.
+Unlike normal calculators, this one lies — it intentionally gives wrong results 80% of the time while looking completely legit.
+Designed with a glitchy, dark terminal-style UI, it’s part joke, part experiment, and part front-end showcase.
 
-🔗 Live Demo
+🌐 project preview : [live demo here](https://paras941.github.io/mini-project-false-calculator/)
 
-🎯 Click Here to Try The False Calculator
-
-(Replace with your actual Vercel or GitHub Pages link)
+(Replace this link with your deployed project)
 
 🧱 Tech Stack
-Technology	Purpose
-🧩 HTML5	Page structure and input fields
-🎨 CSS3	Styling, layout, and glitch/scanline effects
-⚙️ JavaScript (Vanilla)	Core logic for calculations and randomness
-🔤 Google Fonts	Poppins & Roboto Mono for tech-style typography
+
+HTML5 – Structure of the calculator
+
+CSS3 – Styling, layout, and glitch animations
+
+JavaScript (Vanilla) – Logic and random behavior
+
+Google Fonts – Poppins and Roboto Mono for clean typography
+
 ✨ Features
-Feature	Description
-🎲 Random Results	80% of the time it gives fake results, 20% real ones
-⚡ Glitch Animation	Visual distortion appears during false calculations
-💻 Retro Terminal Look	Dark theme with scanline overlay for a CRT effect
-🚫 Error Handling	Detects invalid inputs and division by zero
-📱 Responsive Design	Works perfectly across devices
-🧠 Fake Intelligence	Acts “smart” while being completely wrong
-🖼️ Modes Overview
-Mode	Appearance	Behavior
-🟥 False Mode	Red-accented results + glitch effect	Displays wrong values intentionally
-🟩 Correct Mode	Green-accented results	Shows actual math results (rare)
-⚠️ Error Mode	Yellow text	Prompts invalid or missing input warning
+
+🎲 Random results — 80% false, 20% real
+
+⚡ Glitch animation when false results appear
+
+💻 Dark, retro-style screen with scanline effect
+
+🚫 Error handling for invalid inputs and divide-by-zero
+
+📱 Fully responsive design
+
+🧠 Random “fake smart” logic
+
+🖼️ Modes
+
+🟥 False Mode — Glitchy red results with incorrect calculations
+
+🟩 Correct Mode — Real calculations (rare chance)
+
+⚠️ Error Mode — Shows warnings for invalid inputs or division by zero
+
 📁 Folder Structure
-File	Description
-index.html	Main structure and calculator UI
-style.css	Styling, color scheme, and glitch effects
-script.js	Fake/real calculation logic
-README.md	Project documentation (this file)
+false-calculator/
+│
+├── index.html       # Main UI and structure
+├── style.css        # Styling and glitch effects
+├── script.js        # Randomized logic and animations
+└── README.md        # Project documentation
+
 🧮 Example Behavior
-Operation	Real Result	False Result Example
+Operation	Real Result	False Result
 3 + 2	5	1
 6 × 4	24	1.5
 9 ÷ 3	3	27
 2 ^ 4	16	5
+🚀 How to Run Locally
 
-(Yes, it lies convincingly.)
+Clone the repository
 
-🚀 Run Locally
 git clone https://github.com/your-username/false-calculator.git
+
+
+Navigate to the folder
+
 cd false-calculator
+
+
+Open the project
+
 open index.html
 
 
-No frameworks, no dependencies — just open and run.
+(Or just double-click index.html)
 
-🔧 Logic Snippet
+⚙️ Core Logic Example
 if (Math.random() < 0.8) {
-  // 80% false mode
   resultsDiv.classList.add("false");
   setTimeout(() => resultsDiv.classList.add("glitch"), 40);
 } else {
-  // 20% true mode
   resultsDiv.classList.add("correct");
 }
 
+
+This simple logic randomly decides whether to display correct or incorrect results — and triggers the glitch animation for false outputs.
+
 🔮 Future Improvements
-Feature	Description
-🎚️ Truth Mode Toggle	Switch between fake/real modes manually
-💾 History Log	Save past calculations
-🔊 Audio FX	Add glitch and typewriter sounds
-🌗 Theme Mode	Add light/dark toggle
-⚛️ React Version	Component-based remake for scalability
+
+Add a “Truth Mode” toggle
+
+Include sound effects for the glitch animation
+
+Store calculation history using localStorage
+
+Add light/dark theme switch
+
+Rebuild as a React app with components
+
 📜 License
-License	Details
-📝 MIT License	Free to use, modify, and share
+
+Released under the MIT License — feel free to use and modify.
