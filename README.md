@@ -10,25 +10,25 @@ Designed with a glitchy, dark terminal-style UI, it’s part joke, part experime
 
 🧱 Tech Stack
 
-HTML5 – Structure of the calculator
-CSS3 – Styling, layout, and glitch animations
-JavaScript (Vanilla) – Logic and random behavior
-Google Fonts – Poppins and Roboto Mono for clean typography
+- HTML5 – Structure of the calculator
+- CSS3 – Styling, layout, and glitch animations
+- JavaScript (Vanilla) – Logic and random behavior
+- Google Fonts – Poppins and Roboto Mono for clean typography
 
 ✨ Features
 
-🎲 Random results — 80% false, 20% real
-⚡ Glitch animation when false results appear
-💻 Dark, retro-style screen with scanline effect
-🚫 Error handling for invalid inputs and divide-by-zero
-📱 Fully responsive design
-🧠 Random “fake smart” logic
+- Random results — 80% false, 20% real
+-  Glitch animation when false results appear
+- Dark, retro-style screen with scanline effect
+-  Eror handling for invalid inputs and divide-by-zero
+- Fully responsive design
+- Random “fake smart” logic
 
 🖼️ Modes
 
-🟥 False Mode — Glitchy red results with incorrect calculations
-🟩 Correct Mode — Real calculations (rare chance)
-⚠️ Error Mode — Shows warnings for invalid inputs or division by zero
+- False Mode — Glitchy red results with incorrect calculations
+- Correct Mode — Real calculations (rare chance)
+- Error Mode — Shows warnings for invalid inputs or division by zero
 
 📁 Folder Structure
 false-calculator/
@@ -40,4 +40,4 @@ false-calculator/
 
 📜 License
 
-Released under the MIT License — feel free to use and modify.
+-Released under the MIT License — feel free to use and modify.
